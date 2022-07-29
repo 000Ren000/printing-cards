@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9733263.css",
-    "main.js": "/static/js/main.f1e456c4.js",
+    "main.css": "/static/css/main.402aa61f.css",
+    "main.js": "/static/js/main.ddd21144.js",
     "static/js/787.01d38ed1.chunk.js": "/static/js/787.01d38ed1.chunk.js",
+    "static/media/Yellow-card.png": "/static/media/Yellow-card.a576dd9604eac0f044fb.png",
     "static/media/Red-card.png": "/static/media/Red-card.b06dbda9cb3a2c576b28.png",
     "static/media/Inter-Medium.woff?v=3.19": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff?v=3.19": "/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -17,12 +18,12 @@
     "static/media/Avertademopeextrabold.woff2": "/static/media/Avertademopeextrabold.649ae697ab6343cec0f2.woff2",
     "static/media/Avertademopecutteddemoregular.woff2": "/static/media/Avertademopecutteddemoregular.815489e9d10e0f8299cd.woff2",
     "index.html": "/index.html",
-    "main.f9733263.css.map": "/static/css/main.f9733263.css.map",
-    "main.f1e456c4.js.map": "/static/js/main.f1e456c4.js.map",
+    "main.402aa61f.css.map": "/static/css/main.402aa61f.css.map",
+    "main.ddd21144.js.map": "/static/js/main.ddd21144.js.map",
     "787.01d38ed1.chunk.js.map": "/static/js/787.01d38ed1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9733263.css",
-    "static/js/main.f1e456c4.js"
+    "static/css/main.402aa61f.css",
+    "static/js/main.ddd21144.js"
   ]
 }

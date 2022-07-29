@@ -5,13 +5,17 @@
   width: 303px;
   height: 190px;
   box-sizing: border-box;
-  background-image: url('../../images/Red-card.png');
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
   margin-top: 20px;
 }
-
+.card_background_red {
+  background-image: url("../../images/Red-card.png");
+}
+.card_background_yellow {
+  background-image: url("../../images/Yellow-card.png");
+}
 .card__name-container {
   display: flex;
   width: 190px;
