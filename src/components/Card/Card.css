@@ -11,22 +11,26 @@
   overflow: hidden;
   margin-top: 20px;
 }
+
 .card__name-container {
   display: flex;
-  max-width: 190px;
-  width: 100%;
-  max-height: 43px;
-  margin: 9px 0 0 9px;
+  width: 190px;
+  height: 55px;
+  margin: 10px 0 0 9px;
 }
+
 .card__name {
+  width: 100%;
   font-size: 19px;
   font-family: "Averta Demo", serif;
   color: rgb(255, 255, 255);
-  font-weight:  800;
+  font-weight: 800;
   font-style: italic;
   line-height: 1.05;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+  align-self: center;
 }
 
 .card__shtrih {

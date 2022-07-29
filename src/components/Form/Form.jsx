@@ -1,24 +1,30 @@
 import React from 'react';
 import './Form.css'
 
-function Form({handleClick}) {
+const handleSubmit = (e) => {
+  e.preventDefault();
+  console.log();
+}
+function Form({functions}) {
+  const {changeName, changeCod, handleClick} = functions
+
   return (
    <>
-     <form action="src/components/Form/Form" className="form">
+     <form action="src/components/Form/Form" className="form" onSubmit={handleClick}>
        <h1 className="form__header">Печать карточек для сотрудников</h1>
-       <label  className="form__label">ФИО</label>
        <input
          type="text"
          className="form__input"
-         placeholder="Иванов Иван Ивонович"
+         placeholder="ФИО"
+         onChange={(e) => changeName(e.target.value)}
        />
-       <label  className="form__label">Последние 4 цифры штрих-кода</label>
        <input
          type="number"
          className="form__input"
-         placeholder="1841"
+         placeholder="Последние 4 цифры штрих-кода"
+         onChange={(event) => changeCod(event.target.value)}
        />
-       <button className="form__btn" onClick={handleClick}>Печать</button>
+       <button className="form__btn">Печать</button>
      </form>
    </>
   );

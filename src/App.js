@@ -1,18 +1,21 @@
-import {useRef} from 'react';
-import ReactToPrint from 'react-to-print';
+import {useRef, useState} from 'react';
+import ReactToPrint, {useReactToPrint} from 'react-to-print';
 import Form from './components/Form/Form';
 import './App.css';
 import Card from './components/Card/Card'
+import {GlobalContext} from './components/Card/Card';
 
 function App() {
-  const componentRef = useRef(null);
+  const [name, setName] = useState('ФИО');
+  const [cod, setCod] = useState(9990);
 
+  const changeName = (newName) => setName(newName);
+  const changeCod = (newCod) => setCod(newCod);
 
   return (
-    <div className="App">
-      <Form />
-      <Card name="Пестряцова Арина Николаевна" shtih={1819}/>
-    </div>
+      <div className="App">
+        <Card name={name} shtih={cod} functions={{changeName, changeCod}}/>
+      </div>
   );
 }
 

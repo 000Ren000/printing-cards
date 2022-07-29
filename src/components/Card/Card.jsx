@@ -1,20 +1,24 @@
-import React, {useRef} from 'react';
 import './Card.css';
-
+import React, {useRef} from 'react';
 import {useReactToPrint} from 'react-to-print';
+import Form from '../Form/Form';
 
-function Card({shtih, name}) {
+function Card({shtih, name, functions}) {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
   });
 
-  const handleClick = (evt) => {
+  const handleClick = (evt,) => {
     evt.preventDefault();
     handlePrint();
   }
+
+
+
   return (
     <>
+      <Form functions={{...functions, handleClick}}/>
       <div className="card" ref={componentRef}>
         <div className="card__name-container">
           <div className="card__name">{name}</div>
@@ -24,8 +28,6 @@ function Card({shtih, name}) {
              className="card__shtrih"
         />
       </div>
-
-      <button onClick={handleClick}>ok</button>
     </>
   );
 }
