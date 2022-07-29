@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9733263.css",
+    "main.js": "/static/js/main.f1e456c4.js",
+    "static/js/787.01d38ed1.chunk.js": "/static/js/787.01d38ed1.chunk.js",
+    "static/media/Red-card.png": "/static/media/Red-card.b06dbda9cb3a2c576b28.png",
+    "static/media/Inter-Medium.woff?v=3.19": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff?v=3.19": "/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2?v=3.19": "/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2?v=3.19": "/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/Avertademopecutteddemoregular.ttf": "/static/media/Avertademopecutteddemoregular.4696c9e5995cbbd067ac.ttf",
+    "static/media/Avertademopeextrabold.ttf": "/static/media/Avertademopeextrabold.dd427a95d6b15682740f.ttf",
+    "static/media/Avertademopeextrabold.woff": "/static/media/Avertademopeextrabold.24eb9ec153d1a0ee8316.woff",
+    "static/media/Avertademopecutteddemoregular.woff": "/static/media/Avertademopecutteddemoregular.9bfb7b8c403117bf9b1a.woff",
+    "static/media/Avertademopeextrabold.woff2": "/static/media/Avertademopeextrabold.649ae697ab6343cec0f2.woff2",
+    "static/media/Avertademopecutteddemoregular.woff2": "/static/media/Avertademopecutteddemoregular.815489e9d10e0f8299cd.woff2",
+    "index.html": "/index.html",
+    "main.f9733263.css.map": "/static/css/main.f9733263.css.map",
+    "main.f1e456c4.js.map": "/static/js/main.f1e456c4.js.map",
+    "787.01d38ed1.chunk.js.map": "/static/js/787.01d38ed1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9733263.css",
+    "static/js/main.f1e456c4.js"
+  ]
+}
