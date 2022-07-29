@@ -1,12 +1,21 @@
 import React, {useRef} from 'react';
 import './Card.css';
 
-function Card({shtih, name}) {
-    const ref = useRef();
+import {useReactToPrint} from 'react-to-print';
 
+function Card({shtih, name}) {
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  });
+
+  const handleClick = (evt) => {
+    evt.preventDefault();
+    handlePrint();
+  }
   return (
     <>
-      <div className="card" ref={ref}>
+      <div className="card" ref={componentRef}>
         <div className="card__name-container">
           <div className="card__name">{name}</div>
         </div>
@@ -15,6 +24,8 @@ function Card({shtih, name}) {
              className="card__shtrih"
         />
       </div>
+
+      <button onClick={handleClick}>ok</button>
     </>
   );
 }

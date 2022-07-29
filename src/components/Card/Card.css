@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
+  margin-top: 20px;
 }
 .card__name-container {
   display: flex;
