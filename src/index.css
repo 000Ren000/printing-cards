@@ -1,13 +1,18 @@
+@import url('./utils/normalize.css');
+@import url('./fonts/avertademo/avertademo.css');
+@import url('./fonts/inter/fonts.css');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  max-width: 756px;
+  background-color: #010018;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+#root {
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

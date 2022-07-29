@@ -1,0 +1,14 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 622px) {
+  .App {
+    justify-content: center;
+  }
+}
