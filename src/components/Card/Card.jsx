@@ -23,7 +23,7 @@ function Card({shtih, name, functions}) {
           <div className="card__name">{name}</div>
         </div>
         <img alt='Barcode Generator TEC-IT'
-             src={`https://barcode.tec-it.com/barcode.ashx?data=250000000${shtih}&code=EAN13&translate-esc=true`}
+             src={`https://barcode.tec-it.com/barcode.ashx?data=${shtih}&code=EAN13&translate-esc=true`}
              className="card__shtrih"
         />
       </div>

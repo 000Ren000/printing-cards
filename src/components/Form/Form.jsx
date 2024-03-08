@@ -21,7 +21,7 @@ function Form(props) {
        <input
          type="number"
          className="form__input"
-         placeholder="Последние 4 цифры штрих-кода"
+         placeholder="Введите штрих-код"
          onChange={(event) => changeCod(event.target.value)}
        />
        <div className="form__checkbox">
