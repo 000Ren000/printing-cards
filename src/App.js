@@ -7,7 +7,7 @@ import {GlobalContext} from './components/Card/Card';
 
 function App() {
   const [name, setName] = useState('ФИО');
-  const [cod, setCod] = useState(9990);
+  const [cod, setCod] = useState(2500000000003);
 
   const changeName = (newName) => setName(newName);
   const changeCod = (newCod) => setCod(newCod);

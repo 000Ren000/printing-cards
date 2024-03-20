@@ -1,13 +1,15 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react'
 import './Form.css'
 
 
 function Form(props) {
-  const {changeName, changeCod, handleClick, } =props.functions;
+  const {changeName, changeCod, handleClick, handleSaveImage} =props.functions;
   const changeColor = () => {
     if (!props.color) props.handleColor(true);
     else props.handleColor(false);
   }
+
+
   return (
    <>
      <form action="src/components/Form/Form" className="form" onSubmit={handleClick}>
@@ -32,6 +34,7 @@ function Form(props) {
        </div>
 
        <button className="form__btn">Печать</button>
+       <button onClick={handleSaveImage} className="form__btn">Сохранить</button>
      </form>
    </>
   );
